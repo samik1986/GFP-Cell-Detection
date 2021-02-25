@@ -1,4 +1,5 @@
 # GFP-Cell-Detection
+[![DOI](https://zenodo.org/badge/342072813.svg)](https://zenodo.org/badge/latestdoi/342072813)
 
 Run the script 'run_script.sh' get the results.
 

@@ -3,8 +3,8 @@
 
 function main_bam(input_brain)
 warning off;
-input_brain = 'Hua153/';
-input_path = [input_brain erase(input_brain,"/") '_img/'];
+# input_brain = 'Hua153/';
+input_path = input_brain;
 output_dir = 'Cell_Counting/';
 seg_dir = [input_brain '/reg_high_seg/'];
 output_path = [output_dir input_brain]; %% Path of output directory where final outputs are stored

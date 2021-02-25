@@ -20,3 +20,7 @@ If you have Brain Region Segmentation (as .mat files) store that in the folder $
 If you have Brain Region Segmentation in other format, read the segmenation appropiately so that it represents a single-channel image in line 28 of GFP_Cell_Detection/main_bam.m
 
 If you donot have Brain Region Segmentation, comment out line 28 of GFP_Cell_Detection/main_bam.m and add a line to create a white single-channel image of the same size as your input image.
+
+The output is in GeoJSON format with the center locations marked as (y, -x) correponding to the (x,y) co-ordinate in the corresponding image
+
+The names of the input image, Brain region segmentation map, output GeoJson will be the same as the input image, with same/different extensions.

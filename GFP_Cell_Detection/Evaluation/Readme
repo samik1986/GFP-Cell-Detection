@@ -1,0 +1,5 @@
+This folder contains code for calculating overall precision recall for all sections of a brain
+
+Weighted precision recall gives more weightage to the denser sections while the normal precision recall gives equal weightage to all the sections of a brain.
+
+

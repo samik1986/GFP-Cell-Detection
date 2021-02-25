@@ -13,7 +13,7 @@ BioRxiv (2019): 252247.
 
 ### Configurations
 
-Store the input Brain images in JP2 format in a folder with the brainID.
+Store the input Brain images in JP2 format with the alphabet F (to represent fluoroscent section) within the name in a folder with the brainID.
 
 If you have Brain Region Segmentation (as .mat files) store that in the folder $brainID/reg_high_seg_pad/
 
